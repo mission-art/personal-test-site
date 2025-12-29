@@ -1,6 +1,5 @@
 const gameText = document.getElementById('game-text2');
 const userInput = document.getElementById('user-input2');
-const userInput2 = document.getElementById('user-input3');
 const submitBtn = document.getElementById('submit-btn2');
 
 // Print to the screen
@@ -21,9 +20,7 @@ let username = "";
 submitBtn.addEventListener("click", async () => {
     const input = userInput.value.trim();
     userInput.value = "";
-submitBtn.addEventListener("click", async () => {
-    const input = userInput2.value.trim();
-    userInput2.value = "";
+
 
     // STEP 1 → Ask username
     if (currentStep === "askUsername") {
