@@ -10,7 +10,7 @@ function sleep(ms) {
 }
 let currentSteo = "askUsername";
 let username = "";
-submitBtn.addEventListener("click", async () => {
+submitBtn.addEventListener("click", async() => {
   const input = userInput.value.trim();
   userInput.value = "";
 
