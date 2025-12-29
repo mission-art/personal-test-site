@@ -25,8 +25,9 @@ submitBtn.addEventListener("click", async () => {
         print("Incorrect username.  Please refresh page and try again.");
         currentStep = "end";
     }
-  } else if (currentStep === "askPassword") {
+} else if (currentStep === "askPassword") {
     const password1 = input;
+    
     if (username === "student" && password1 === "123456") {
       print("You are logged in as a student.");
       document.getElementById("main-link").style.display = "block";
@@ -39,8 +40,8 @@ submitBtn.addEventListener("click", async () => {
         print("Refresh page and try again.");
     }
     currentStep = "end";
-  } else if (currentStep === "end") {
+    } else if (currentStep === "end") {
       print("Session finished. Refresh page and try again.");
-  }
+    }
 });
 print(Log-in Page \n\nWelcome! Please enter your username:");
