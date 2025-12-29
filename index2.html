@@ -3,6 +3,42 @@
 <head>
 <title>My Personal Webpage</title>
 <style>
+ body {
+            background-color: powderblue;
+            font-family: Arial;
+            color: black;
+            text-align: center;
+        }
+
+div.header {
+    		background-color: tomato;
+    		color: white;
+    		text-align: center;
+    		padding: 20px;
+	}
+        
+h1 {
+            color: navy;
+            font-size: 36px;
+        }
+     
+p {
+            font-size: 18px;
+        }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+.grid-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 </style>
 </head>
 <body>
@@ -14,6 +50,26 @@
     Age: 55
     Location: Kansas City, Missouri
     </pre>
+<br>
+<div class="grid-container">
+
+<div class="grid-item"><a href = "https://soundcloud.com/chuckcheapburied" style = "color:black"; target = "_blank";>
+<button class = "button-transition">Chuck's Music Page</button></a></div>
+
+<div class="grid-item"></div>
+
+<div class="grid-item"><a href = "https://www.linkedin.com/in/chuckzavos/" style = “color:black”; target = “_blank”;>
+<button class = "button-transition">LinkedIn Page</button></a></div>
+
+<div class="grid-item"></div>
+
+ <div class="grid-item"><a href = "adventure.html" style = "color:black"; target = "_blank";>
+<button class = "button-transition">Adventure Game Webpage</button></a></div>
+
+<div class="grid-item"></div>
+
+</div>
+
 </header>
 </body>
 </html>
