@@ -71,6 +71,38 @@ img {
     text-align: center;
 }
 
+
+.table-style1 {
+            width: 80%;
+            margin: 20px auto;
+            border: 2px solid navy;
+        }
+.table-style1 th, .table-style1 td {
+            border: 1px solid navy;
+            padding: 10px;
+            text-align: center;
+        }
+
+.table-style1 th {
+            background-color: lightblue;
+        }
+.table-style2 {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 2px solid darkgreen;
+        }
+
+.table-style2 th, .table-style2 td {
+            border: 1px solid darkgreen;
+            padding: 10px;
+            text-align: center;
+        }
+
+.table-style2 th {
+            background-color: lightgreen;
+        }
+
 </style>
 </head>
 <body>
@@ -125,7 +157,7 @@ img {
 
 
 <h2>My Hobbies</h2>
-<table>
+<table class="table-style1">
  <tr>
 <th>Hobby</th>
 <th>Hours/Week</th>
@@ -138,7 +170,7 @@ img {
 <div class="grid-item"></div>
 <div class="grid-item">
  <h2>My Favorite Movies</h2>
-<table>
+<table class="table-style2">
 <tr>
 <th>Movie</th>
 <th>Year</th>
