@@ -37,7 +37,6 @@ submitBtn.addEventListener("click", async () => {
 
     // STEP 2 → Ask password
 } else if (currentStep === "askPassword") {
-    inputField.type = "password"
     const password1 = input;
 
     if (username === "student" && password1 === "123456") {
