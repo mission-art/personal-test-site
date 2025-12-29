@@ -6,11 +6,11 @@ function print(text) {
   gameText.scrollTop = gameText.scrollHeight;
 }
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve,ms));
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
-let currentSteo = "askUsername";
+let currentStep = "askUsername";
 let username = "";
-submitBtn.addEventListener("click", async() => {
+submitBtn.addEventListener("click", async () => {
   const input = userInput.value.trim();
   userInput.value = "";
 
